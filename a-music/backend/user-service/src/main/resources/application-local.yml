@@ -1,0 +1,57 @@
+spring:
+  # впишите свои параметры в datasource
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: password
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: a.music.platform@gmail.com
+    password: project-a-music
+    protocol: smtp
+    # на почте в настройках аккаунта разрешена работа со сторонними приложениями. Не убирать галочку разрешения.
+    properties.mail.smtp:
+         starttls.enable: true
+
+  security:
+    oauth2:
+      successUri: "/auth/get-token/"
+      client:
+        registration:
+          facebook:
+            client-id: 1206632243037683
+            client-secret: d413cdcc59f4c420dbdae2f8a73c2069
+          google:
+            client-id: 430712594411-0gkc60m97vtgp37icmell301mq2ahqgd.apps.googleusercontent.com
+            client-secret: F1n7XvRHwA-o87Gw3YOhLLvr
+          github:
+            client-id: c8d99412d21bc7c817ef
+            client-secret: a6520cc497ee555d40b568e4b9c9153fb9c3cdad
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+token:
+  secret: IUJSJWMveG5bdjNBdjk7cg==
+  expiration: 600000
+activating:
+  uri: http://localhost:8080/verification/email/check-email-code/
+logging:
+  level:
+    org:
+      hibernate:
+        type: TRACE
+paypal:
+  clientId: AXs8My4DQDuf6DVz23uYEJxggWvcWBDXIoqcsmvP6v9h6-z7RUEAWFyr9fzu1pEXA46f5dXmtX0_3Ayo
+  clientSecret: ECKixR15yHZ-03mC_TV9aIPHAJgBU9c8MeXsycXCucCYxZWIKaM800B-mEFZh4PxxyIfOUbCxsQmp7Sd
+  mode: live
+subscription:
+  uri: http://localhost:8080/user-subscriptions/check-email-code/

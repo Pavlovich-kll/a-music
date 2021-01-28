@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests AvatarEditor component render correctly component 1`] = `
+<AvatarEditor
+  onClose={[MockFunction]}
+>
+  <div
+    className="changeAvatarBlock"
+  >
+    <Formik
+      initialValues={
+        Object {
+          "avatar": null,
+        }
+      }
+      onSubmit={[Function]}
+    >
+      <Form>
+        <form
+          action="#"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="ChangeAvatarBlock"
+          >
+            <label
+              className="AvatarLabel"
+            >
+              <ForwardRef>
+                <WithStyles(ForwardRef(SvgIcon))>
+                  <ForwardRef(SvgIcon)
+                    classes={
+                      Object {
+                        "colorAction": "MuiSvgIcon-colorAction",
+                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                        "colorError": "MuiSvgIcon-colorError",
+                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                        "root": "MuiSvgIcon-root",
+                      }
+                    }
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 4V1h2v3h3v2H5v3H3V6H0V4h3zm3 6V7h3V4h7l1.83 2H21c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V10h3zm7 9c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-3.2-5c0 1.77 1.43 3.2 3.2 3.2s3.2-1.43 3.2-3.2-1.43-3.2-3.2-3.2-3.2 1.43-3.2 3.2z"
+                      />
+                    </svg>
+                  </ForwardRef(SvgIcon)>
+                </WithStyles(ForwardRef(SvgIcon))>
+              </ForwardRef>
+              <span
+                className="title"
+              >
+                Add file
+              </span>
+              <input
+                accept="image/*"
+                className="input"
+                id="contained-button-avatar"
+                multiple={true}
+                name="avatar"
+                onChange={[Function]}
+                type="file"
+              />
+            </label>
+            <div
+              className="status-input"
+            >
+              someAvatar.jpeg
+            </div>
+            <WithStyles(ForwardRef(Button))
+              className="uploadAvatar"
+              color="primary"
+              type="submit"
+              variant="contained"
+            >
+              <ForwardRef(Button)
+                className="uploadAvatar"
+                classes={
+                  Object {
+                    "colorInherit": "MuiButton-colorInherit",
+                    "contained": "MuiButton-contained",
+                    "containedPrimary": "MuiButton-containedPrimary",
+                    "containedSecondary": "MuiButton-containedSecondary",
+                    "containedSizeLarge": "MuiButton-containedSizeLarge",
+                    "containedSizeSmall": "MuiButton-containedSizeSmall",
+                    "disableElevation": "MuiButton-disableElevation",
+                    "disabled": "Mui-disabled",
+                    "endIcon": "MuiButton-endIcon",
+                    "focusVisible": "Mui-focusVisible",
+                    "fullWidth": "MuiButton-fullWidth",
+                    "iconSizeLarge": "MuiButton-iconSizeLarge",
+                    "iconSizeMedium": "MuiButton-iconSizeMedium",
+                    "iconSizeSmall": "MuiButton-iconSizeSmall",
+                    "label": "MuiButton-label",
+                    "outlined": "MuiButton-outlined",
+                    "outlinedPrimary": "MuiButton-outlinedPrimary",
+                    "outlinedSecondary": "MuiButton-outlinedSecondary",
+                    "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                    "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                    "root": "MuiButton-root",
+                    "sizeLarge": "MuiButton-sizeLarge",
+                    "sizeSmall": "MuiButton-sizeSmall",
+                    "startIcon": "MuiButton-startIcon",
+                    "text": "MuiButton-text",
+                    "textPrimary": "MuiButton-textPrimary",
+                    "textSecondary": "MuiButton-textSecondary",
+                    "textSizeLarge": "MuiButton-textSizeLarge",
+                    "textSizeSmall": "MuiButton-textSizeSmall",
+                  }
+                }
+                color="primary"
+                type="submit"
+                variant="contained"
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  className="MuiButton-root MuiButton-contained uploadAvatar MuiButton-containedPrimary"
+                  component="button"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  type="submit"
+                >
+                  <ForwardRef(ButtonBase)
+                    className="MuiButton-root MuiButton-contained uploadAvatar MuiButton-containedPrimary"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    type="submit"
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-contained uploadAvatar MuiButton-containedPrimary"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="submit"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        Upload Avatar
+                      </span>
+                      <WithStyles(memo)
+                        center={false}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={false}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(Button)>
+            </WithStyles(ForwardRef(Button))>
+          </div>
+        </form>
+      </Form>
+    </Formik>
+  </div>
+</AvatarEditor>
+`;

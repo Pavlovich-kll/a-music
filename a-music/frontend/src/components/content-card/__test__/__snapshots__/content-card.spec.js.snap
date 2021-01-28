@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Track card test should render correctly 1`] = `
+<_default
+  handleTogglePlay={[MockFunction]}
+  onAddToFavorite={[MockFunction]}
+  onRemoveFromFavorite={[MockFunction]}
+  trackData={Object {}}
+>
+  <Styled(Component)>
+    <ForwardRef(MotionComponent)
+      animate={
+        Object {
+          "opacity": Array [
+            0,
+            1,
+          ],
+        }
+      }
+      className="sc-AxjAm iTgkfn"
+      transition={
+        Object {
+          "duration": 2,
+          "ease": "easeIn",
+        }
+      }
+    >
+      <div
+        className="sc-AxjAm iTgkfn"
+        style={Object {}}
+      >
+        <div
+          className="progressive"
+        >
+          <Progressive>
+            <ProgressiveImage
+              placeholder="https://cdn.dribbble.com/users/504740/screenshots/11256241/media/fc00780e26c3eaef22234fc2793cac35.jpg"
+              src="undefinedmusic-service/content/file/undefined"
+            >
+              <img
+                alt="cover"
+                src="https://cdn.dribbble.com/users/504740/screenshots/11256241/media/fc00780e26c3eaef22234fc2793cac35.jpg"
+              />
+            </ProgressiveImage>
+          </Progressive>
+        </div>
+        <div
+          className="hoverable"
+        >
+          <div
+            className="hoverable__description-block-title"
+          >
+            <p
+              className="author"
+            />
+          </div>
+          <div
+            className="hoverable__control-block"
+          >
+            <WithStyles(ForwardRef(IconButton))
+              data-testid="add-track"
+              onClick={[Function]}
+            >
+              <ForwardRef(IconButton)
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit",
+                    "colorPrimary": "MuiIconButton-colorPrimary",
+                    "colorSecondary": "MuiIconButton-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "edgeEnd": "MuiIconButton-edgeEnd",
+                    "edgeStart": "MuiIconButton-edgeStart",
+                    "label": "MuiIconButton-label",
+                    "root": "MuiIconButton-root",
+                    "sizeSmall": "MuiIconButton-sizeSmall",
+                  }
+                }
+                data-testid="add-track"
+                onClick={[Function]}
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  centerRipple={true}
+                  className="MuiIconButton-root"
+                  data-testid="add-track"
+                  disabled={false}
+                  focusRipple={true}
+                  onClick={[Function]}
+                >
+                  <ForwardRef(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    data-testid="add-track"
+                    disabled={false}
+                    focusRipple={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiIconButton-root"
+                      data-testid="add-track"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label"
+                      >
+                        <ForwardRef
+                          fontSize="large"
+                        >
+                          <WithStyles(ForwardRef(SvgIcon))
+                            fontSize="large"
+                          >
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                              fontSize="large"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef>
+                      </span>
+                      <WithStyles(memo)
+                        center={true}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(IconButton)>
+            </WithStyles(ForwardRef(IconButton))>
+            <WithStyles(ForwardRef(IconButton))
+              color="secondary"
+              data-testid="toggle-play"
+              onClick={[Function]}
+            >
+              <ForwardRef(IconButton)
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit",
+                    "colorPrimary": "MuiIconButton-colorPrimary",
+                    "colorSecondary": "MuiIconButton-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "edgeEnd": "MuiIconButton-edgeEnd",
+                    "edgeStart": "MuiIconButton-edgeStart",
+                    "label": "MuiIconButton-label",
+                    "root": "MuiIconButton-root",
+                    "sizeSmall": "MuiIconButton-sizeSmall",
+                  }
+                }
+                color="secondary"
+                data-testid="toggle-play"
+                onClick={[Function]}
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  centerRipple={true}
+                  className="MuiIconButton-root MuiIconButton-colorSecondary"
+                  data-testid="toggle-play"
+                  disabled={false}
+                  focusRipple={true}
+                  onClick={[Function]}
+                >
+                  <ForwardRef(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root MuiIconButton-colorSecondary"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    data-testid="toggle-play"
+                    disabled={false}
+                    focusRipple={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+                      data-testid="toggle-play"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label"
+                      >
+                        <ForwardRef
+                          fontSize="large"
+                        >
+                          <WithStyles(ForwardRef(SvgIcon))
+                            fontSize="large"
+                          >
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                              fontSize="large"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M8 5v14l11-7z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef>
+                      </span>
+                      <WithStyles(memo)
+                        center={true}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(IconButton)>
+            </WithStyles(ForwardRef(IconButton))>
+            <WithStyles(ForwardRef(IconButton))
+              data-testid="remove-track"
+              onClick={[Function]}
+            >
+              <ForwardRef(IconButton)
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit",
+                    "colorPrimary": "MuiIconButton-colorPrimary",
+                    "colorSecondary": "MuiIconButton-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "edgeEnd": "MuiIconButton-edgeEnd",
+                    "edgeStart": "MuiIconButton-edgeStart",
+                    "label": "MuiIconButton-label",
+                    "root": "MuiIconButton-root",
+                    "sizeSmall": "MuiIconButton-sizeSmall",
+                  }
+                }
+                data-testid="remove-track"
+                onClick={[Function]}
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  centerRipple={true}
+                  className="MuiIconButton-root"
+                  data-testid="remove-track"
+                  disabled={false}
+                  focusRipple={true}
+                  onClick={[Function]}
+                >
+                  <ForwardRef(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    data-testid="remove-track"
+                    disabled={false}
+                    focusRipple={true}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiIconButton-root"
+                      data-testid="remove-track"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label"
+                      >
+                        <ForwardRef
+                          fontSize="large"
+                        >
+                          <WithStyles(ForwardRef(SvgIcon))
+                            fontSize="large"
+                          >
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                              fontSize="large"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef>
+                      </span>
+                      <WithStyles(memo)
+                        center={true}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(IconButton)>
+            </WithStyles(ForwardRef(IconButton))>
+          </div>
+          <div
+            className="hoverable__description-block"
+          >
+            <p
+              className="album"
+            />
+            <p
+              className="title"
+            />
+          </div>
+        </div>
+      </div>
+      <Memo(MountComponent)
+        innerRef={
+          Object {
+            "current": <div
+              class="sc-AxjAm iTgkfn"
+            >
+              <div
+                class="progressive"
+              >
+                <img
+                  alt="cover"
+                  src="https://cdn.dribbble.com/users/504740/screenshots/11256241/media/fc00780e26c3eaef22234fc2793cac35.jpg"
+                />
+              </div>
+              <div
+                class="hoverable"
+              >
+                <div
+                  class="hoverable__description-block-title"
+                >
+                  <p
+                    class="author"
+                  />
+                </div>
+                <div
+                  class="hoverable__control-block"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root"
+                    data-testid="add-track"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary"
+                    data-testid="toggle-play"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8 5v14l11-7z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root"
+                    data-testid="remove-track"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13H5v-2h14v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="hoverable__description-block"
+                >
+                  <p
+                    class="album"
+                  />
+                  <p
+                    class="title"
+                  />
+                </div>
+              </div>
+            </div>,
+          }
+        }
+        isStatic={false}
+        values={
+          MotionValuesMap {
+            "hasMounted": true,
+            "onUpdate": undefined,
+            "output": [Function],
+            "unsubscribers": Map {
+              "opacity" => [Function],
+            },
+            "values": Map {
+              "opacity" => MotionValue {
+                "canTrackVelocity": true,
+                "current": 0,
+                "lastUpdated": 0,
+                "notifySubscriber": [Function],
+                "parent": undefined,
+                "prev": undefined,
+                "renderSubscribers": Set {
+                  [Function],
+                },
+                "scheduleVelocityCheck": [Function],
+                "setChild": [Function],
+                "stopAnimation": [Function],
+                "timeDelta": 0,
+                "transformer": undefined,
+                "updateAndNotify": [Function],
+                "updateSubscribers": Set {
+                  [Function],
+                },
+                "velocityCheck": [Function],
+              },
+            },
+          }
+        }
+      />
+      <Component
+        animate={
+          Object {
+            "opacity": Array [
+              0,
+              1,
+            ],
+          }
+        }
+        controls={
+          ValueAnimationControls {
+            "activeOverrides": Set {},
+            "baseTarget": Object {
+              "opacity": 1,
+            },
+            "defaultTransition": Object {
+              "duration": 2,
+              "ease": "easeIn",
+            },
+            "hasValue": [Function],
+            "isAnimating": Set {
+              "opacity",
+            },
+            "makeTargetAnimatable": [Function],
+            "overrides": Array [],
+            "props": Object {
+              "animate": Object {
+                "opacity": Array [
+                  0,
+                  1,
+                ],
+              },
+              "children": Array [
+                <div
+                  className="progressive"
+                >
+                  <Progressive />
+                </div>,
+                <div
+                  className="hoverable"
+                >
+                  <div
+                    className="hoverable__description-block-title"
+                  >
+                    <p
+                      className="author"
+                    />
+                  </div>
+                  <div
+                    className="hoverable__control-block"
+                  >
+                    <ForwardRef(WithStyles)
+                      data-testid="add-track"
+                      onClick={[Function]}
+                    >
+                      <UNDEFINED
+                        fontSize="large"
+                      />
+                    </ForwardRef(WithStyles)>
+                    <ForwardRef(WithStyles)
+                      color="secondary"
+                      data-testid="toggle-play"
+                      onClick={[Function]}
+                    >
+                      <UNDEFINED
+                        fontSize="large"
+                      />
+                    </ForwardRef(WithStyles)>
+                    <ForwardRef(WithStyles)
+                      data-testid="remove-track"
+                      onClick={[Function]}
+                    >
+                      <UNDEFINED
+                        fontSize="large"
+                      />
+                    </ForwardRef(WithStyles)>
+                  </div>
+                  <div
+                    className="hoverable__description-block"
+                  >
+                    <p
+                      className="album"
+                    />
+                    <p
+                      className="title"
+                    />
+                  </div>
+                </div>,
+              ],
+              "className": "sc-AxjAm iTgkfn",
+              "transition": Object {
+                "duration": 2,
+                "ease": "easeIn",
+              },
+            },
+            "readValueFromSource": [Function],
+            "resolvedOverrides": Array [],
+            "values": MotionValuesMap {
+              "hasMounted": true,
+              "onUpdate": undefined,
+              "output": [Function],
+              "unsubscribers": Map {
+                "opacity" => [Function],
+              },
+              "values": Map {
+                "opacity" => MotionValue {
+                  "canTrackVelocity": true,
+                  "current": 0,
+                  "lastUpdated": 0,
+                  "notifySubscriber": [Function],
+                  "parent": undefined,
+                  "prev": undefined,
+                  "renderSubscribers": Set {
+                    [Function],
+                  },
+                  "scheduleVelocityCheck": [Function],
+                  "setChild": [Function],
+                  "stopAnimation": [Function],
+                  "timeDelta": 0,
+                  "transformer": undefined,
+                  "updateAndNotify": [Function],
+                  "updateSubscribers": Set {
+                    [Function],
+                  },
+                  "velocityCheck": [Function],
+                },
+              },
+            },
+            "variants": Object {},
+          }
+        }
+        inherit={false}
+        key="animation"
+        transition={
+          Object {
+            "duration": 2,
+            "ease": "easeIn",
+          }
+        }
+        values={
+          MotionValuesMap {
+            "hasMounted": true,
+            "onUpdate": undefined,
+            "output": [Function],
+            "unsubscribers": Map {
+              "opacity" => [Function],
+            },
+            "values": Map {
+              "opacity" => MotionValue {
+                "canTrackVelocity": true,
+                "current": 0,
+                "lastUpdated": 0,
+                "notifySubscriber": [Function],
+                "parent": undefined,
+                "prev": undefined,
+                "renderSubscribers": Set {
+                  [Function],
+                },
+                "scheduleVelocityCheck": [Function],
+                "setChild": [Function],
+                "stopAnimation": [Function],
+                "timeDelta": 0,
+                "transformer": undefined,
+                "updateAndNotify": [Function],
+                "updateSubscribers": Set {
+                  [Function],
+                },
+                "velocityCheck": [Function],
+              },
+            },
+          }
+        }
+      />
+    </ForwardRef(MotionComponent)>
+  </Styled(Component)>
+</_default>
+`;

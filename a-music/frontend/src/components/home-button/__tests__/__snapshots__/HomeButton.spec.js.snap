@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing HomeButton component render correctly component 1`] = `
+<HomeButton>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Back to home page"
+  >
+    <ForwardRef(Tooltip)
+      classes={
+        Object {
+          "arrow": "MuiTooltip-arrow",
+          "popper": "MuiTooltip-popper",
+          "popperArrow": "MuiTooltip-popperArrow",
+          "popperInteractive": "MuiTooltip-popperInteractive",
+          "tooltip": "MuiTooltip-tooltip",
+          "tooltipArrow": "MuiTooltip-tooltipArrow",
+          "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+          "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+          "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+          "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+          "touch": "MuiTooltip-touch",
+        }
+      }
+      title="Back to home page"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        aria-describedby={null}
+        className="homeButton"
+        color="secondary"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        title="Back to home page"
+      >
+        <ForwardRef(IconButton)
+          aria-describedby={null}
+          className="homeButton"
+          classes={
+            Object {
+              "colorInherit": "MuiIconButton-colorInherit",
+              "colorPrimary": "MuiIconButton-colorPrimary",
+              "colorSecondary": "MuiIconButton-colorSecondary",
+              "disabled": "Mui-disabled",
+              "edgeEnd": "MuiIconButton-edgeEnd",
+              "edgeStart": "MuiIconButton-edgeStart",
+              "label": "MuiIconButton-label",
+              "root": "MuiIconButton-root",
+              "sizeSmall": "MuiIconButton-sizeSmall",
+            }
+          }
+          color="secondary"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title="Back to home page"
+        >
+          <WithStyles(ForwardRef(ButtonBase))
+            aria-describedby={null}
+            centerRipple={true}
+            className="MuiIconButton-root homeButton MuiIconButton-colorSecondary"
+            disabled={false}
+            focusRipple={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title="Back to home page"
+          >
+            <ForwardRef(ButtonBase)
+              aria-describedby={null}
+              centerRipple={true}
+              className="MuiIconButton-root homeButton MuiIconButton-colorSecondary"
+              classes={
+                Object {
+                  "disabled": "Mui-disabled",
+                  "focusVisible": "Mui-focusVisible",
+                  "root": "MuiButtonBase-root",
+                }
+              }
+              disabled={false}
+              focusRipple={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              title="Back to home page"
+            >
+              <button
+                aria-describedby={null}
+                className="MuiButtonBase-root MuiIconButton-root homeButton MuiIconButton-colorSecondary"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={0}
+                title="Back to home page"
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label"
+                >
+                  <ForwardRef>
+                    <WithStyles(ForwardRef(SvgIcon))>
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
+                </span>
+                <WithStyles(memo)
+                  center={true}
+                >
+                  <ForwardRef(TouchRipple)
+                    center={true}
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
+                      }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
+                    >
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
+              </button>
+            </ForwardRef(ButtonBase)>
+          </WithStyles(ForwardRef(ButtonBase))>
+        </ForwardRef(IconButton)>
+      </WithStyles(ForwardRef(IconButton))>
+      <ForwardRef(Popper)
+        anchorEl={
+          <button
+            class="MuiButtonBase-root MuiIconButton-root homeButton MuiIconButton-colorSecondary"
+            tabindex="0"
+            title="Back to home page"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        }
+        className="MuiTooltip-popper"
+        id={null}
+        open={false}
+        placement="bottom"
+        popperOptions={
+          Object {
+            "modifiers": Object {
+              "arrow": Object {
+                "element": null,
+                "enabled": false,
+              },
+            },
+          }
+        }
+        transition={true}
+      />
+    </ForwardRef(Tooltip)>
+  </WithStyles(ForwardRef(Tooltip))>
+</HomeButton>
+`;

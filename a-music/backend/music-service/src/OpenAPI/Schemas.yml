@@ -1,0 +1,83 @@
+components:
+  schemas:
+    Track:
+      type: object
+      properties:
+        album:
+          type: string
+          example: Blood Sugar Magix
+        likes:
+          type: number
+          example: 0
+        genres:
+          type: array
+          items:
+            type: string
+            example: Rock, Funk-rock
+        _id:
+          type: string
+          example: 5f0c6761c03ef40019935c26
+        author:
+          type: string
+          example: Red Hot Chili Peppers
+        title:
+          type: string
+          example: Funky Monks
+        type:
+          type: string
+          example: music
+        track_id:
+          type: string
+          example: 23991e6ae05b5c1b58c3c1cf4c38cbb8.mp3
+        cover_id:
+          type: string
+          example: 95762b1233a13da8b9add36e486e9e72.png
+        createdAt:
+          type: string
+          format: date-time
+          example: 2020-07-13T13:53:37.522Z
+        updatedAt:
+          type: string
+          format: date-time
+          example: 2020-07-13T13:53:37.522Z
+        __v:
+          type: number
+          example: 0
+
+    Playlist:
+      type: object
+      properties:
+        tracks:
+          type: array
+          items:
+            type: object
+            $ref: "#/components/schemas/Track"
+        likes:
+          type: number
+          example: 0
+        _id:
+          type: string
+          example: 5f10d95fa2a2b30158d6ce22
+        title:
+          type: string
+          example: Playlist
+        description:
+          type: string
+          example: My first playlist
+        track_count:
+          type: number
+          example: 1
+        pic:
+          type: string
+          example: 64a56346956d908f6144148f2b2b3fad.png
+        createdAt:
+          type: string
+          format: date-time
+          example: 2020-07-13T13:53:37.522Z
+        updatedAt:
+          type: string
+          format: date-time
+          example: 2020-07-13T13:53:37.522Z
+        __v:
+          type: number
+          example: 0

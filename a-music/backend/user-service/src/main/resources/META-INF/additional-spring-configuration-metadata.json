@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.profiles.autoconfigure.exclude",
+      "type": "java.lang.String",
+      "description": "Description for spring.profiles.autoconfigure.exclude."
+  }
+] }

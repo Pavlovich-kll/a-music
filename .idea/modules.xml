@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AMusic.iml" filepath="$PROJECT_DIR$/.idea/AMusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a-music/backend/backend.iml" filepath="$PROJECT_DIR$/a-music/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a-music/backend/user-service/user-service.iml" filepath="$PROJECT_DIR$/a-music/backend/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

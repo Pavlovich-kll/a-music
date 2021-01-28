@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPanelShallow should render 1`] = `
+<styled.div>
+  <Async
+    autoFocus={true}
+    cacheOptions={true}
+    defaultOptions={false}
+    filterOption={null}
+    inputValue=""
+    isClearable={true}
+    isLoading={false}
+    loadOptions={[Function]}
+    onChange={[Function]}
+    onInputChange={[Function]}
+    placeholder="Search..."
+    styles={
+      Object {
+        "clearIndicator": [Function],
+        "dropdownIndicator": [Function],
+        "option": [Function],
+        "valueContainer": [Function],
+      }
+    }
+    value=""
+  />
+</styled.div>
+`;

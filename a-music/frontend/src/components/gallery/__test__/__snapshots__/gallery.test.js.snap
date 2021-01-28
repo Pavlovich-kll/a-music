@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery tests render correctly component 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Gallery>
+      <styled.div
+        data-testid="some"
+      >
+        <div
+          className="sc-AxjAm gatqUH"
+          data-testid="some"
+        >
+          <n
+            className={null}
+            currentSlide={0}
+            disableAnimation={false}
+            disableKeyboard={false}
+            dragEnabled={false}
+            dragStep={1}
+            hasMasterSpinner={false}
+            infinite={false}
+            interval={5000}
+            isIntrinsicHeight={false}
+            isPageScrollLocked={false}
+            isPlaying={false}
+            lockOnWindowScroll={false}
+            naturalSlideHeight={10}
+            naturalSlideWidth={10}
+            orientation="horizontal"
+            playDirection="forward"
+            step={1}
+            tag="div"
+            totalSlides={1}
+            touchEnabled={true}
+            visibleSlides={4}
+          >
+            <div
+              className="carousel"
+            >
+              <h1
+                className="title__carousel"
+              >
+                Popular playlist
+              </h1>
+              <n>
+                <n
+                  carouselStore={
+                    Object {
+                      "getStoreState": [Function],
+                      "masterSpinnerError": [Function],
+                      "masterSpinnerSuccess": [Function],
+                      "setStoreState": [Function],
+                      "subscribeMasterSpinner": [Function],
+                      "unsubscribeAllMasterSpinner": [Function],
+                      "unsubscribeMasterSpinner": [Function],
+                    }
+                  }
+                  className={null}
+                  classNameAnimation={null}
+                  classNameTray={null}
+                  classNameTrayWrap={null}
+                  currentSlide={0}
+                  disableAnimation={false}
+                  disableKeyboard={false}
+                  dragEnabled={false}
+                  dragStep={1}
+                  hasMasterSpinner={false}
+                  infinite={false}
+                  interval={5000}
+                  isIntrinsicHeight={false}
+                  isPageScrollLocked={false}
+                  isPlaying={false}
+                  lockOnWindowScroll={false}
+                  masterSpinnerFinished={false}
+                  moveThreshold={0.1}
+                  naturalSlideHeight={10}
+                  naturalSlideWidth={10}
+                  onMasterSpinner={null}
+                  orientation="horizontal"
+                  playDirection="forward"
+                  privateUnDisableAnimation={false}
+                  slideSize={100}
+                  slideTraySize={25}
+                  spinner={null}
+                  step={1}
+                  style={Object {}}
+                  tabIndex={null}
+                  totalSlides={1}
+                  touchEnabled={true}
+                  trayProps={Object {}}
+                  trayTag="ul"
+                  visibleSlides={4}
+                >
+                  <div
+                    aria-live="polite"
+                    className="horizontalSlider___281Ls carousel__slider carousel__slider--horizontal"
+                    onKeyDown={[Function]}
+                    role="listbox"
+                    style={Object {}}
+                    tabIndex={0}
+                  >
+                    <div
+                      className="carousel__slider-tray-wrapper carousel__slider-tray-wrap--horizontal"
+                      style={Object {}}
+                    >
+                      <ul
+                        className="sliderTray___-vHFQ sliderAnimation___300FY carousel__slider-tray carousel__slider-tray--horizontal"
+                        onClickCapture={[Function]}
+                        onMouseDown={[Function]}
+                        onTouchCancel={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "transform": "translateX(0%) translateX(0px)",
+                            "width": "25%",
+                          }
+                        }
+                      >
+                        <NavLink
+                          key="1"
+                          to="/collection/1"
+                        >
+                          <Link
+                            aria-current={null}
+                            to={
+                              Object {
+                                "hash": "",
+                                "pathname": "/collection/1",
+                                "search": "",
+                                "state": null,
+                              }
+                            }
+                          >
+                            <LinkAnchor
+                              aria-current={null}
+                              href="/collection/1"
+                              navigate={[Function]}
+                            >
+                              <a
+                                aria-current={null}
+                                href="/collection/1"
+                                onClick={[Function]}
+                              >
+                                <n
+                                  data-testid="slide"
+                                  index="1"
+                                >
+                                  <i
+                                    carouselStore={
+                                      Object {
+                                        "getStoreState": [Function],
+                                        "masterSpinnerError": [Function],
+                                        "masterSpinnerSuccess": [Function],
+                                        "setStoreState": [Function],
+                                        "subscribeMasterSpinner": [Function],
+                                        "unsubscribeAllMasterSpinner": [Function],
+                                        "unsubscribeMasterSpinner": [Function],
+                                      }
+                                    }
+                                    className={null}
+                                    classNameHidden={null}
+                                    classNameVisible={null}
+                                    currentSlide={0}
+                                    data-testid="slide"
+                                    index="1"
+                                    innerClassName={null}
+                                    innerTag="div"
+                                    isIntrinsicHeight={false}
+                                    naturalSlideHeight={10}
+                                    naturalSlideWidth={10}
+                                    onBlur={null}
+                                    onFocus={null}
+                                    orientation="horizontal"
+                                    slideSize={100}
+                                    style={Object {}}
+                                    tabIndex={null}
+                                    tag="li"
+                                    totalSlides={1}
+                                    visibleSlides={4}
+                                  >
+                                    <li
+                                      aria-selected={true}
+                                      className="slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--visible"
+                                      data-testid="slide"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      role="option"
+                                      style={
+                                        Object {
+                                          "paddingBottom": "100%",
+                                          "width": "100%",
+                                        }
+                                      }
+                                      tabIndex={0}
+                                    >
+                                      <div
+                                        className="slideInner___2mfX9 carousel__inner-slide"
+                                        style={Object {}}
+                                      >
+                                        <div
+                                          className="slide"
+                                          data-testid="main__div"
+                                          id="1"
+                                        >
+                                          <img
+                                            alt="pictures"
+                                            className="image"
+                                            data-testid="img"
+                                            src="undefinedmusic-service/content/file/data"
+                                          />
+                                          <span
+                                            className="title__group"
+                                            data-testid="title"
+                                          >
+                                            qweqwe
+                                          </span>
+                                          <span>
+                                            <span
+                                              data-testid="track_count"
+                                            >
+                                              12234234
+                                            </span>
+                                             
+                                            tracks - 
+                                            <span
+                                              data-testid="likes"
+                                            >
+                                              12
+                                            </span>
+                                             
+                                            likes
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </i>
+                                </n>
+                              </a>
+                            </LinkAnchor>
+                          </Link>
+                        </NavLink>
+                      </ul>
+                    </div>
+                  </div>
+                </n>
+              </n>
+              <n>
+                <a
+                  carouselStore={
+                    Object {
+                      "getStoreState": [Function],
+                      "masterSpinnerError": [Function],
+                      "masterSpinnerSuccess": [Function],
+                      "setStoreState": [Function],
+                      "subscribeMasterSpinner": [Function],
+                      "unsubscribeAllMasterSpinner": [Function],
+                      "unsubscribeMasterSpinner": [Function],
+                    }
+                  }
+                  className={null}
+                  currentSlide={0}
+                  disabled={null}
+                  infinite={false}
+                  onClick={null}
+                  step={1}
+                  totalSlides={1}
+                  visibleSlides={4}
+                >
+                  <button
+                    aria-label="previous"
+                    className="buttonBack___1mlaL carousel__back-button"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <ForwardRef>
+                      <WithStyles(ForwardRef(SvgIcon))>
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                  </button>
+                </a>
+              </n>
+              <n>
+                <u
+                  carouselStore={
+                    Object {
+                      "getStoreState": [Function],
+                      "masterSpinnerError": [Function],
+                      "masterSpinnerSuccess": [Function],
+                      "setStoreState": [Function],
+                      "subscribeMasterSpinner": [Function],
+                      "unsubscribeAllMasterSpinner": [Function],
+                      "unsubscribeMasterSpinner": [Function],
+                    }
+                  }
+                  className={null}
+                  currentSlide={0}
+                  disabled={null}
+                  infinite={false}
+                  onClick={null}
+                  step={1}
+                  totalSlides={1}
+                  visibleSlides={4}
+                >
+                  <button
+                    aria-label="next"
+                    className="buttonNext___2mOCa carousel__next-button"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <ForwardRef>
+                      <WithStyles(ForwardRef(SvgIcon))>
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                  </button>
+                </u>
+              </n>
+            </div>
+          </n>
+        </div>
+      </styled.div>
+    </Gallery>
+     
+  </Router>
+</BrowserRouter>
+`;

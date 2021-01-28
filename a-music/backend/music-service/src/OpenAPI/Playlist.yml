@@ -1,0 +1,141 @@
+openapi: "3.0.0"
+info:
+  title: Audio paths
+  version: "1.0"
+
+paths:
+  /music-service/playlist:
+    get:
+      summary: Returns a collection of playlists
+      tags:
+        - Playlist
+      responses:
+        200:
+          description: Collection of available playlists
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Playlist"
+        500:
+          description: Internal server error
+
+    post:
+      summary: Uploading of playlist
+      tags:
+        - Playlist
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                pic:
+                  type: string
+                  format: binary
+                  description: Image of loadable playlist
+                title:
+                  type: string
+                  description: Title of loadable playlist
+                description:
+                  type: string
+                  description: Description of loadable playlist
+                tracks:
+                  type: array
+                  items:
+                    type: string
+                  description: Array of ids for existing tracks (`_id` field in track)
+      responses:
+        200:
+          description: Uploaded playlist
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Playlist"
+        500:
+          description: Internal server error
+
+    put:
+      summary: Set like to playlist
+      tags:
+        - Playlist
+      requestBody:
+        required: true
+        description: Require existing playlist (`_id` field in playlist)
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: _id of playlist
+      responses:
+        200:
+          description: Liked playlists
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Playlist"
+        422:
+          description: Unprocessable entity
+        500:
+          description: Internal server error
+
+  /music-service/playlist/new:
+    put:
+      summary: Add new tracks in playlist
+      tags:
+        - Playlist
+      requestBody:
+        required: true
+        description: Require existing playlist and tracks (field ```_id``` in playlist and field ```_id``` in track)
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: _id of playlist
+                tracks:
+                  type: array
+                  items:
+                    type: string
+                  description: ids of new tracks
+      responses:
+        200:
+          description: Updated playlist
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Playlist"
+        422:
+          description: Unprocessable entity
+        500:
+          description: Internal server error
+
+  /music-service/playlist/{id}:
+    get:
+      summary: The endpoint returns a single playlist
+      tags:
+        - Playlist
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Require existing playlist (`_id` field in playlist)
+          schema:
+            type: string
+            example: id
+      responses:
+        200:
+          description: Sought-for playlist
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Playlist"
+        500:
+          description: Internal server error

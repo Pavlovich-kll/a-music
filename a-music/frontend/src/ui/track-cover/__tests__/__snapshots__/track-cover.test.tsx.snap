@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrackCover should render 1`] = `
+<styled.div>
+  <span
+    className="track"
+  >
+    title
+     - 
+    author
+  </span>
+</styled.div>
+`;

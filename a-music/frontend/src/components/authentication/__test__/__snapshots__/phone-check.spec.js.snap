@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Phone-check tests should renders property 1`] = `
+<SignUpProvider>
+  <CheckPhoneNumber
+    onContinue={[MockFunction]}
+  >
+    <Formik
+      initialValues={
+        Object {
+          "phone": "",
+        }
+      }
+      onSubmit={[Function]}
+      validationSchema={
+        ObjectSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_defaultDefault": [Function],
+          "_deps": Array [],
+          "_excludedEdges": Array [],
+          "_exclusive": Object {},
+          "_mutate": undefined,
+          "_nodes": Array [
+            "phone",
+          ],
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "object",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "fields": Object {
+            "phone": StringSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_deps": Array [],
+              "_exclusive": Object {
+                "matches": false,
+                "required": true,
+              },
+              "_mutate": undefined,
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "string",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+              "type": "string",
+            },
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "object",
+        }
+      }
+    >
+      <Styled(Form)>
+        <Form
+          className="sc-AxjAm jarUeW AuthenticateWrappedForm"
+        >
+          <form
+            action="#"
+            className="sc-AxjAm jarUeW AuthenticateWrappedForm"
+            onReset={[Function]}
+            onSubmit={[Function]}
+          >
+            <Field
+              name="phone"
+            >
+              <t
+                alwaysDefaultMask={false}
+                areaCodes={null}
+                autoFormat={true}
+                autocompleteSearch={false}
+                buttonClass=""
+                buttonStyle={Object {}}
+                containerClass=""
+                containerStyle={Object {}}
+                copyNumbersOnly={true}
+                country=""
+                countryCodeEditable={true}
+                defaultErrorMessage=""
+                defaultMask="... ... ... ... .."
+                disableCountryCode={false}
+                disableDropdown={false}
+                disableSearchIcon={false}
+                disabled={false}
+                dropdownClass=""
+                dropdownStyle={Object {}}
+                enableAreaCodeStretch={false}
+                enableAreaCodes={false}
+                enableClickOutside={true}
+                enableLongNumbers={false}
+                enableSearch={false}
+                enableTerritories={false}
+                excludeCountries={Array []}
+                flagsImagePath="./flags.png"
+                inputClass="phone-input"
+                inputProps={Object {}}
+                inputStyle={Object {}}
+                isValid={true}
+                jumpCursorToEnd={true}
+                keys={
+                  Object {
+                    "A": 65,
+                    "DOWN": 40,
+                    "ENTER": 13,
+                    "ESC": 27,
+                    "LEFT": 37,
+                    "PLUS": 43,
+                    "RIGHT": 39,
+                    "SPACE": 32,
+                    "UP": 38,
+                    "Z": 90,
+                  }
+                }
+                localization={Object {}}
+                masks={null}
+                onChange={[Function]}
+                onEnterKeyPress={null}
+                onlyCountries={Array []}
+                placeholder="Enter your phone"
+                preferredCountries={Array []}
+                prefix="+"
+                preserveOrder={Array []}
+                priority={null}
+                regions=""
+                renderStringAsFlag=""
+                searchClass=""
+                searchNotFound="No entries to show"
+                searchPlaceholder="search"
+                searchStyle={Object {}}
+                showDropdown={false}
+                value=""
+              >
+                <div
+                  className=" react-tel-input"
+                  onKeyDown={[Function]}
+                  style={Object {}}
+                >
+                  <input
+                    className="phone-input form-control"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    onCopy={[Function]}
+                    onDoubleClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Enter your phone"
+                    style={Object {}}
+                    type="tel"
+                    value=""
+                  />
+                  <div
+                    className=" flag-dropdown"
+                    role="button"
+                    style={Object {}}
+                    tabIndex="0"
+                  >
+                    <div
+                      className="selected-flag"
+                      onClick={[Function]}
+                      title=""
+                    >
+                      <div
+                        className="flag 0"
+                      >
+                        <div
+                          className="arrow"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </t>
+            </Field>
+            <WithStyles(ForwardRef(Button))
+              color="primary"
+              data-testid="submit-btn"
+              fullWidth={true}
+              type="submit"
+              variant="outlined"
+            >
+              <ForwardRef(Button)
+                classes={
+                  Object {
+                    "colorInherit": "MuiButton-colorInherit",
+                    "contained": "MuiButton-contained",
+                    "containedPrimary": "MuiButton-containedPrimary",
+                    "containedSecondary": "MuiButton-containedSecondary",
+                    "containedSizeLarge": "MuiButton-containedSizeLarge",
+                    "containedSizeSmall": "MuiButton-containedSizeSmall",
+                    "disableElevation": "MuiButton-disableElevation",
+                    "disabled": "Mui-disabled",
+                    "endIcon": "MuiButton-endIcon",
+                    "focusVisible": "Mui-focusVisible",
+                    "fullWidth": "MuiButton-fullWidth",
+                    "iconSizeLarge": "MuiButton-iconSizeLarge",
+                    "iconSizeMedium": "MuiButton-iconSizeMedium",
+                    "iconSizeSmall": "MuiButton-iconSizeSmall",
+                    "label": "MuiButton-label",
+                    "outlined": "MuiButton-outlined",
+                    "outlinedPrimary": "MuiButton-outlinedPrimary",
+                    "outlinedSecondary": "MuiButton-outlinedSecondary",
+                    "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                    "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                    "root": "MuiButton-root",
+                    "sizeLarge": "MuiButton-sizeLarge",
+                    "sizeSmall": "MuiButton-sizeSmall",
+                    "startIcon": "MuiButton-startIcon",
+                    "text": "MuiButton-text",
+                    "textPrimary": "MuiButton-textPrimary",
+                    "textSecondary": "MuiButton-textSecondary",
+                    "textSizeLarge": "MuiButton-textSizeLarge",
+                    "textSizeSmall": "MuiButton-textSizeSmall",
+                  }
+                }
+                color="primary"
+                data-testid="submit-btn"
+                fullWidth={true}
+                type="submit"
+                variant="outlined"
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                  component="button"
+                  data-testid="submit-btn"
+                  disabled={false}
+                  focusRipple={true}
+                  focusVisibleClassName="Mui-focusVisible"
+                  type="submit"
+                >
+                  <ForwardRef(ButtonBase)
+                    className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    component="button"
+                    data-testid="submit-btn"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    type="submit"
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      data-testid="submit-btn"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="submit"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        Check phone number and continue
+                      </span>
+                      <WithStyles(memo)
+                        center={false}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={false}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(memo)>
+                    </button>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(Button)>
+            </WithStyles(ForwardRef(Button))>
+          </form>
+        </Form>
+      </Styled(Form)>
+    </Formik>
+  </CheckPhoneNumber>
+</SignUpProvider>
+`;

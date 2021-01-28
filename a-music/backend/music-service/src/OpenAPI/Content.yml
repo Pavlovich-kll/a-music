@@ -1,0 +1,86 @@
+openapi: "3.0.0"
+info:
+  title: Content paths
+  version: "1.0"
+
+paths:
+  /music-service/content/types:
+    get:
+      summary: Returns allowed types
+      tags:
+        - Content
+      responses:
+        200:
+          description: Collection of allowed types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    title:
+                      type: string
+              example:
+                - id: music
+                  title: Music
+                - id: book
+                  title: Book
+                - id: podcast
+                  title: Podcast
+        500:
+          description: Internal server error
+
+  /music-service/content/file/{id}:
+    get:
+      summary: Returns stream of file
+      tags:
+        - Files
+        - Content
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            example: id
+          description: Require existing track (`track_id` and `cover_id` fields can be used) or playlist (`pic` field can be used)
+      responses:
+        200:
+          description: Stream of the file
+        500:
+          description: Internal server error
+  /music-service/content/genres:
+    get:
+      summary: Returns presented genres
+      tags:
+        - Content
+      responses:
+        200:
+          description: Collection of presended genres
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    in_tracks_count:
+                      type: number
+                    _id:
+                      type: string
+                    title:
+                      type: string
+                    __v:
+                      type: number
+              example:
+                - in_tracks_count: 3
+                  _id: 5f44be8c03c05a6b248207ec
+                  title: Electro
+                  __v: 0
+                - in_tracks_count: 2
+                  _id: 5f44be8c03c05a6b248207ed
+                  title: Rock
+                  __v: 0

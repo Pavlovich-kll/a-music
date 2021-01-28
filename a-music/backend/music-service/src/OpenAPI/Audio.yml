@@ -1,0 +1,180 @@
+openapi: "3.0.0"
+info:
+  title: Audio paths
+  version: "1.0"
+
+paths:
+  /music-service/file:
+    get:
+      summary: Returns a collection of track
+      tags:
+        - Files
+      responses:
+        200:
+          description: Collection of available tracks
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Track"
+
+    post:
+      summary: Uploading of track
+      tags:
+        - Files
+      description: Fields `format` and `bitrate` are optional.
+        If they are missing, track will be uploaded without compression.
+        In order to use compression both fields must by included.
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                author:
+                  type: string
+                  description: Track author
+                title:
+                  type: string
+                  description: Track title
+                album:
+                  type: string
+                  description: Album in which you can find track
+                  example: Single
+                type:
+                  type: string
+                  description: For example music, podcast or book
+                  enum: [music, podcast, book]
+                genres:
+                  type: array
+                  description: Officially recognized genres (https://en.wikipedia.org/wiki/List_of_music_styles)
+                  items:
+                    type: string
+                track:
+                  type: string
+                  description: Track file
+                  format: binary
+                format:
+                  type: string
+                  description: Optional field. Required for compression
+                  enum: [ogg, mp3]
+                bitrate:
+                  type: string
+                  description: Optional field. Required for compression
+                  enum: [64, 128, 192, 320]
+                cover:
+                  type: string
+                  description: Track image
+                  format: binary
+      responses:
+        200:
+          description: Uploaded track
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Track"
+        500:
+          description: Internal server error
+
+    put:
+      summary: Set like to track
+      tags:
+        - Files
+      requestBody:
+        description: Require existing track (`track_id` field in track)
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                track_id:
+                  type: string
+      responses:
+        200:
+          description: Updated document
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Track"
+        422:
+          description: Unprocessable entity
+
+  /music-service/favorites:
+    get:
+      summary: Returns a colleaction of uploaded tracks by passed ids
+      description: Make sure that you've encoded all query params
+      tags:
+        - Files
+      parameters:
+        - in: query
+          name: track_ids[]
+          explode: true
+          required: true
+          schema:
+            type: array
+            items:
+              type: string
+          description: Require existing tracks (`track_id` field in track)
+      responses:
+        200:
+          description: Collection of uploaded files
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Track"
+        422:
+          description: Unprocessable entity
+
+  /music-service/{type}/file:
+    get:
+      summary: Returns a collection of uploaded tracks by passed type
+      description: Make sure that you've encoded all query params
+      tags:
+        - Files
+      parameters:
+        - in: path
+          name: type
+          required: true
+          schema:
+            type: string
+            enum: [music, book, podcast]
+      responses:
+        200:
+          description: Collection of uploaded files
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Track"
+        500:
+          description: Internal server error
+  /music-service/search:
+    get:
+      summary: Returns collection of suggestions
+      tags:
+        - Searching
+      parameters:
+        - in: query
+          name: searching
+          required: true
+          schema:
+            type: string
+            example: Dummy search
+          description: Searching in ```author```, ```title```, ```albom```, ```genres``` and ```type``` fields
+      responses:
+        200:
+          description: Suggestions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Track"
+        422:
+          description: Unprocessable entity
